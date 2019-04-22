@@ -20,6 +20,23 @@ export class UserComponent extends React.Component {
               <h4>Web developer</h4>
             </div>
           </Link>
+<<<<<<< HEAD
+=======
+          <ul className="user-social">
+            <li className="user-links">
+              <a href="/"><i className="icon icon-twitter-logo"></i></a>
+            </li>
+            <li className="user-links">
+              <a href="/"><i className="icon icon-facebook-logo"></i></a>
+            </li>
+            <li className="user-links">
+              <a href="/"><i className="icon icon-linkedin2"></i></a>
+            </li>
+            <li className="user-links">
+              <a href="/"><i className="icon icon-google-plus"></i></a>
+            </li>
+          </ul>
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
         </div>
       </Col>
     )

@@ -71,6 +71,7 @@
         transform: scale(0.7);
       }
     }
+<<<<<<< HEAD
   }
 }
 
@@ -82,5 +83,59 @@
   
   h4 {
     font-size: 18px;
+=======
+
+    .user-social {
+      bottom: 0;
+    }
+  }
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.icon {
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+
+  &:hover {
+    color: #e91e63; 
+  }
+}
+
+.user-social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+  padding: 5px 0;
+}
+
+.user-links {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  margin: 0 7px;
+
+  a {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    color: #fff;
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
   }
 }

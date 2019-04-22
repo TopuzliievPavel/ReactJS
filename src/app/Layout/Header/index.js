@@ -16,6 +16,10 @@ const links = [
   {title: 'About', url: '/About'},
   {title: 'Portfolio', url: '/Portfolio'},
   {title: 'Featured', url: '/Featured'},
+<<<<<<< HEAD
+=======
+  {title: 'Testimonials', url: '/Testimonials'},
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
   {title: 'SearchUsers', url: '/SearchUsers'},
   {title: 'Contacts', url: '/Contacts'},
 ]

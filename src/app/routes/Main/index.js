@@ -61,7 +61,11 @@ export class Main extends React.Component {
         <Container>
           <Row>
             <Col className="sort-control">
+<<<<<<< HEAD
               <Button className="btn btn-main" color="secondary" onClick={ this.sortItems }>Sort</Button>
+=======
+              <Button color="primary" onClick={ this.sortItems }>Sort</Button>
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
             </Col>
           </Row>
           <Row className="user-info-row">

@@ -30,6 +30,15 @@
 
 // ---------------------------------
 
+<<<<<<< HEAD
+=======
+// .container {
+//     max-width: 1170px;
+//     padding: 0 15px;
+//     margin: 0 auto;
+// }
+
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
 .header {
   // position: absolute;
   width: 100%;
@@ -40,8 +49,11 @@
 
 ul {
     list-style: none;
+<<<<<<< HEAD
     padding: 0;
     margin: 0;
+=======
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
 }
 
 a {
@@ -50,6 +62,10 @@ a {
 
 .navbar {
   width: 100%;
+<<<<<<< HEAD
+=======
+  color: #000;
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
   padding: 0;
 
   @media screen and (max-width: 768px) {
@@ -79,8 +95,13 @@ a {
 
     .nav-item {
       padding: 0 10px;
+<<<<<<< HEAD
       cursor: pointer;
       color: var(--white);
+=======
+      color: #fff;
+      cursor: pointer;
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
     }
 
     .nav-link {
@@ -93,6 +114,7 @@ a {
       color: inherit;
       text-transform: capitalize;
 
+<<<<<<< HEAD
       &:focus,
       &:hover {
         color: var(--white);
@@ -100,6 +122,11 @@ a {
 
       &:hover {
         background-color: #e91e63;
+=======
+      &:hover {
+        background-color: #e91e63;
+        color: #fff;
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
 
         &::before {
           bottom: -7px;

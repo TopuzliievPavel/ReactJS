@@ -17,6 +17,10 @@ export class App extends Component {
               <Route path="/About" component = { About } />
               <Route path="/Portfolio" component = { () => <h3>Portfolio</h3> } />
               <Route path="/Featured" component = { () => <h3>Featured</h3> } />
+<<<<<<< HEAD
+=======
+              <Route path="/Testimonials" component = { () => <h3>Testimonials</h3> } />
+>>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
               <Route path="/SearchUsers" component = { SearchUsers } />
               <Route path="/Contacts" component = { () => <h3>Contacts</h3> } />
               <Route path="/404" component = { () => <div>Not Found</div> } />

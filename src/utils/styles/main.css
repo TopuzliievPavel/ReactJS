@@ -10561,14 +10561,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-<<<<<<< HEAD
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-=======
->>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
 body {
   margin: 0;
   padding: 0;
@@ -10576,12 +10568,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 500;
-<<<<<<< HEAD
-  color: var(--main-txt-color);
-=======
->>>>>>> d68f96e93bd5ab7f98ea13d7ee546bfad88c1719
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+/*# sourceMappingURL=main.css.map */
