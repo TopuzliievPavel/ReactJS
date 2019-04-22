@@ -1,0 +1,28 @@
+.main {
+  padding: 10px 0 0 0;
+}
+
+.sort-control {
+  margin-bottom: 10px;
+}
+
+.btn-main {
+  background: var(--cyan);
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-color: var(--cyan);
+  transition: .4s all ease-in-out;
+
+  &:hover {
+    background: var(--cyan);
+    border-color: var(--cyan);
+  }
+
+ @media screen and (min-width: "768px") {
+  &:hover {
+    background: var(--cyan);
+    border-color: var(--cyan);
+    transform: scale(1.2);
+  }
+ }
+}
