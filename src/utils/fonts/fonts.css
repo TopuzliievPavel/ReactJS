@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Bold.eot");
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Thin.eot?#iefix") format("embedded-opentype"), url("./BrandonGrotesque/BrandonGrotesque-Thin.woff") format("woff"), url("./BrandonGrotesque/BrandonGrotesque-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Light.eot");
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("./BrandonGrotesque/BrandonGrotesque-Light.woff") format("woff"), url("./BrandonGrotesque/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Regular.eot");
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("./BrandonGrotesque/BrandonGrotesque-Regular.woff") format("woff"), url("./BrandonGrotesque/BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Medium.eot");
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("./BrandonGrotesque/BrandonGrotesque-Medium.woff") format("woff"), url("./BrandonGrotesque/BrandonGrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Bold.eot");
+  src: local("BrandonGrotesque"), url("./BrandonGrotesque/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("./BrandonGrotesque/BrandonGrotesque-Bold.woff") format("woff"), url("./BrandonGrotesque/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local("Rubik"), url("./Rubik/rubik-regular-webfont.eot");
+  src: local("Rubik"), url("./Rubik/rubik-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./Rubik/rubik-regular-webfont.woff2") format("woff2"), url("./Rubik/rubik-regular-webfont.woff") format("woff"), url("./Rubik/rubik-regular-webfont.ttf") format("truetype"), url("./Rubik/rubik-regular-webfont.svg#rubikregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+/*# sourceMappingURL=fonts.css.map */

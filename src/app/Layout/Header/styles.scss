@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+// Animation for elements
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(50px, 0);
+  }
+  
+  80% {
+    transform: translate(-50px, 0);
+  }
+}
+
+@keyframes rotates {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+// ---------------------------------
+
+// .container {
+//     max-width: 1170px;
+//     padding: 0 15px;
+//     margin: 0 auto;
+// }
+
+.header {
+  // position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  color: #000;
+  padding: 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 10px;
+  }
+}
+
+.navbar-brand {
+  display: block;
+  padding: 0;
+  margin: 0;
+  animation: 
+    rotates 5s linear infinite;
+}
+
+.navbar-collapse {
+  margin: 0 -10px;
+}
+
+.navbar-light {
+
+  .navbar-toggler {
+    border-color: #fff;
+  }
+
+  .navbar-nav {
+
+    .nav-item {
+      padding: 0 10px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .nav-link {
+      position: relative;
+      display: block;
+      text-align: center;
+      font-size: 15px;
+      transition: .5s all ease-in-out;
+      padding: 8px 15px;
+      color: inherit;
+      text-transform: capitalize;
+
+      &:hover {
+        background-color: #e91e63;
+        color: #fff;
+
+        &::before {
+          bottom: -7px;
+          left: -7px;
+          opacity: 1;
+          visibility: visible;
+        }
+
+        &:after {
+          top: -7px;
+          right: -7px;
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: 12px;
+        left: 12px;
+        width: 12px;
+        height: 12px;
+        border: solid 3px #e91e63;
+        border-width: 0 0 3px 3px;
+        transition: .5s all ease-in-out;
+        opacity: 0;
+        overflow: hidden;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 12px;
+        height: 12px;
+        border: solid 3px #e91e63;
+        border-width: 3px 3px 0 0;
+        transition: .5s all ease-in-out;
+        opacity: 0;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+
+
+
